@@ -1,30 +1,37 @@
 .logo-color {
-    color:#4E47FF;
+    color: #4E47FF;
+    font-size: 30px;
 }
+
 .nav-bar {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
 }
-header{
-background-image: url('../Assets/Hero-bg.png');
+
+header {
+    background-image: url('../Assets/Hero-bg.png');
 
 }
-.cool-dark{
+
+.cool-dark {
     text-align: center;
     font-size: 50px;
     margin-top: 150px;
     margin-bottom: 50px;
-    
+
 }
-.button-primary{
+
+.button-primary {
     text-align: center;
     /* margin-bottom: 50px; */
 
-    
+
 }
-.btn-primary{
+
+.btn-primary,
+.button-secondary  {
     padding: 10px 25px;
     background-color: #4E47FF;
     border: none;
@@ -32,5 +39,38 @@ background-image: url('../Assets/Hero-bg.png');
     border-radius: 7px;
     font-weight: bold;
     margin-bottom: 100px;
+
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.first-section h2 {
+    font-size: 40px;
+}
+
+.first-section p {
+    font-size: 20px;
+    color: #252432;
+    opacity: 0.5;
+}
+
+.first-section img {
+    height: 350px;
+    width: 400px;
+    border-radius: 30px;
+}
+.sign-up {
+    padding: 10px 25px;
+    background-color: #4E47FF;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    font-weight: bold;
+
 
 }
